@@ -1,0 +1,26 @@
+<div class="container col-xs-4">  
+  <h1>Ingreso al sistema</h1>
+  <label for="inputlg">Fecha</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.fecha">
+  <label for="inputlg">Ciudad</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.ciudad">
+  <label for="inputlg">Asunto</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.asunto">
+  <label for="inputlg">Tipo</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.tipo">
+  <label for="inputlg">Nombre posgrado</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.nombreposgrado">
+  <label for="inputlg">Titulo</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.titulo">
+  <label for="inputlg">Url archivo</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.url">
+  <label for="inputlg">Id estudiante</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.estudiante.id">
+  <label for="inputlg">Id profesor</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.profesor.id">
+  <label for="inputlg">Id asesor</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.asesor.id">
+  <label for="inputlg">Perfil asesor</label>
+  <input class="form-control input-lg" type="text" ng-model="propuesta.documento.asesor.perfil">
+  <button type="button" class="btn btn-success btn-md" ng-click="addPropuesta()">Guardar</button>
+</div>
